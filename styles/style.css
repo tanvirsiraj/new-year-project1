@@ -170,3 +170,70 @@ header {
     color: #FFFFFF;
     margin-bottom: 30px;
 }
+
+/* footer styles */
+footer {
+    margin-top: 130px;
+    background: #151414;
+    padding: 130px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-left-segment-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.footer-left-segment p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    max-width: 490px;
+}
+
+.footer-left-segment .contact-details {
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.footer-left-segment .contact-details p {
+    margin-bottom: 16px;
+}
+
+.footer-left-segment-icons {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.footer-right-segment-title {
+    font-weight: 600;
+    font-size: 25px;
+    /* line-height: 29px; */
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.footer-right-segment input {
+    margin-bottom: 40px;
+    background: transparent;
+    font-size: 18px;
+    color: #F3F3F3;
+    padding: 18px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+}
+
+.footer-btn a {
+    background-color: #005fac;
+    color: #fff;
+}

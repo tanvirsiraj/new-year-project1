@@ -40,7 +40,7 @@ section {
     font-size: 20px;
     text-align: right;
     color: #005FAC;
-    padding: 20px 25px;
+    padding: 18px 26px;
     background: #FFFFFF;
     border-radius: 5px;
     text-decoration: none;
@@ -151,4 +151,22 @@ header {
     text-align: center;
     color: #737272;
     margin-top: 10px;
+}
+
+/* positive mindset section styles  */
+
+.positive-mindset {
+    background-image: url('../images/watch.png'), url('../images/gradient1.png');
+    padding: 60px 64px;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    border-radius: 8px;
+}
+
+.positive-mindset-content .section-title {
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
 }

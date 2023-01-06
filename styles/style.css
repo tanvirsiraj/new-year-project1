@@ -52,7 +52,7 @@ header {
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: bottom right;
 }
 
 .header-right-content {

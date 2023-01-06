@@ -156,7 +156,7 @@ header {
 /* positive mindset section styles  */
 
 .positive-mindset {
-    background-image: url('../images/watch.png'), url('../images/gradient1.png');
+    background-image: url('../images/watch.png'), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
     padding: 60px 64px;
     background-blend-mode: overlay;
     background-repeat: no-repeat;
@@ -169,6 +169,41 @@ header {
     line-height: 47px;
     color: #FFFFFF;
     margin-bottom: 30px;
+}
+
+/* bonus section styles  */
+.bonus-section .section-title,
+.bonus-section .section-description {
+    text-align: center;
+}
+
+.bonus-section .section-description {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    margin-bottom: 50px;
+}
+
+.design-dev-container {
+    display: flex;
+    gap: 40px;
+}
+
+.design-dev-title {
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+.design-dev-content div {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.design-dev-content div i {
+    color: #10e48c;
 }
 
 /* footer styles */

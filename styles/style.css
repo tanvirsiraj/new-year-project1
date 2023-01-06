@@ -51,11 +51,11 @@ header {
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom right;
+    background-position: center bottom;
 }
 
 .header-right-content {
-    max-width: 550px;
+    max-width: 480px;
     margin-left: auto;
     padding-block: 216px;
 }
@@ -111,7 +111,6 @@ header {
 }
 
 .failures-item p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #444343;

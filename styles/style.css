@@ -29,7 +29,6 @@ section {
 }
 
 .section-description {
-    font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #444343;
@@ -71,7 +70,6 @@ header {
 }
 
 .header-description {
-    font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     text-align: right;
@@ -211,6 +209,7 @@ footer {
     margin-top: 130px;
     background: #151414;
     padding: 130px 0;
+    margin-bottom: -20px;
 }
 
 .footer-content {

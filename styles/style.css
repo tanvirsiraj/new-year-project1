@@ -17,6 +17,10 @@ body {
     /* margin-inline: 200px; */
 }
 
+section {
+    margin-top: 130px;
+}
+
 .section-title {
     font-weight: 700;
     font-size: 40px;
@@ -77,4 +81,74 @@ header {
 
 .header-right-content .header-btn {
     text-align: right;
+}
+
+/*  previous year styles  */
+.previous-year {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 87px;
+    padding-inline: 50px;
+    /* border: 1px solid red; */
+}
+
+.previous-year .section-title {
+    margin-bottom: 24px;
+}
+
+.previous-year .section-description {
+    margin-bottom: 16px;
+}
+
+.failures-item div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.failures-item i {
+    color: #10e48c;
+}
+
+.failures-item p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+/* plans section styles  */
+.plans .section-title {
+    text-align: center;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.plans-container div {
+    text-align: center;
+}
+
+.plans-container-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.plans-container-subtitle {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+    margin-top: 10px;
 }
